@@ -266,6 +266,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="MMD4MecanimEditor">
+      <HintPath>Assets/MMD4Mecanim/Editor/MMD4MecanimEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="MMD4Mecanim">
+      <HintPath>Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/4cmur/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -286,12 +292,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/4cmur/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="MMD4MecanimEditor">
-      <HintPath>Assets/MMD4Mecanim/Editor/MMD4MecanimEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="MMD4Mecanim">
-      <HintPath>Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -323,6 +323,7 @@
     <Compile Include="Assets\OVRLipSync\Scripts\OVRLipSyncContextTextureFlip.cs" />
     <Compile Include="Assets\OVRLipSync\Scripts\OVRLipSyncMicInput.cs" />
     <Compile Include="Assets\OVRLipSync\Scripts\OVRLipSyncSequence.cs" />
+    <Compile Include="Assets\Sakura&apos;sRoom\VRKanojo\Scripts\SunShaftsController.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -425,6 +426,75 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\GIF\GIFRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\GIF\GIFRecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\MP4\MP4Recorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\MP4\MP4RecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\PNG\PNGRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\PNG\PNGRecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\WEBM\WEBMRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\WEBM\WEBMRecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\AudioRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\AudioEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\EncoderBase.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\ExrEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\fcAPI.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\FlacEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\GifEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\MovieEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\MP4Encoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\OggEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\PngEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\WaveEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Encoder\WebMEncoder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\GBufferRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Misc\Bool.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\Misc\DataPath.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\MovieRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Scripts\RecorderBase.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\BaseRenderTextureInput.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\FileNameGenerator.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\FrameRateHelper.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\GenericRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\ImageInputSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\ImageRecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\InputBinder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\InputSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\InputSettingsComponent.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\InputSettingsList.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\OutputPath.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Recorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderAttribute.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderComponent.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderInput.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecordersInventory.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecorderVersion.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\RecordingSession.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\SceneHook.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\TextureFlipper.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\RecorderClip.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\RecorderPlayableBehaviour.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\RecorderTrack.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Timeline\WaitForEndOfFrameComponent.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\UnityHelpers.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Engine\Verbose.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Camera360\Engine\Camera360Input.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Camera360\Engine\Camera360InputSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\CBRenderTextureInput.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\CBRenderTextureInputSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Engine\GameViewSize.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Engine\RenderTextureInput.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Engine\RenderTextureInputSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Engine\RenderTextureSampler.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Engine\RenderTextureSamplerSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\ScreenCapture\Engine\ScreenCaptureInput.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\ScreenCapture\Engine\ScreenCaptureInputSettings.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Engine\ImageRecorder.cs" />
+    <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Engine\ImageRecorderSettings.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
@@ -433,6 +503,10 @@
     <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fitness center\Shaders\Building.shader" />
+    <None Include="Assets\Fitness center\Shaders\CitySkyline.shader" />
+    <None Include="Assets\Fitness center\Shaders\Glass frame.shader" />
+    <None Include="Assets\Fitness center\Shaders\MetalAmplify.shader" />
     <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\pmx2fbx.xml" />
     <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\readme.txt" />
     <None Include="Assets\MMD4Mecanim\Editor\Revision.txt" />
@@ -491,6 +565,7 @@
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_Normal.xml" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_White.txt" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\よ式初音ミク_使用前にお読みください.txt" />
+    <None Include="Assets\Sakura&apos;sRoom\ReadMe.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -502,6 +577,12 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\Information.txt" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Core\Shaders\VerticalFlipper.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Shaders\CopyFB.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Shaders\BS4Accumulate.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Shaders\BS4Normalize.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Shaders\BS4SuperShader.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />

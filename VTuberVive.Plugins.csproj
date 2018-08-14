@@ -266,6 +266,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="MMD4MecanimEditor">
+      <HintPath>Assets/MMD4Mecanim/Editor/MMD4MecanimEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="MMD4Mecanim">
+      <HintPath>Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/4cmur/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -286,12 +292,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/4cmur/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="MMD4MecanimEditor">
-      <HintPath>Assets/MMD4Mecanim/Editor/MMD4MecanimEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="MMD4Mecanim">
-      <HintPath>Assets/MMD4Mecanim/Scripts/MMD4Mecanim.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -466,6 +466,10 @@
     <Compile Include="Assets\Plugins\RootMotion\Shared Scripts\Warning.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fitness center\Shaders\Building.shader" />
+    <None Include="Assets\Fitness center\Shaders\CitySkyline.shader" />
+    <None Include="Assets\Fitness center\Shaders\Glass frame.shader" />
+    <None Include="Assets\Fitness center\Shaders\MetalAmplify.shader" />
     <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\pmx2fbx.xml" />
     <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\readme.txt" />
     <None Include="Assets\MMD4Mecanim\Editor\Revision.txt" />
@@ -524,6 +528,7 @@
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_Normal.xml" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_White.txt" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\よ式初音ミク_使用前にお読みください.txt" />
+    <None Include="Assets\Sakura&apos;sRoom\ReadMe.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -535,6 +540,12 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\Information.txt" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Core\Shaders\VerticalFlipper.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Shaders\CopyFB.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Shaders\BS4Accumulate.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Shaders\BS4Normalize.shader" />
+    <None Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Shaders\BS4SuperShader.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/whiteBox.unity
+- path: Assets/RoomScene.unity
   isLoaded: 1
   isActive: 1
