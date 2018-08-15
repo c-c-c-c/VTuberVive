@@ -528,6 +528,8 @@
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_Normal.xml" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_White.txt" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\よ式初音ミク_使用前にお読みください.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
     <None Include="Assets\Sakura&apos;sRoom\ReadMe.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />

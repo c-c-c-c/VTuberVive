@@ -319,6 +319,15 @@
     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimPreProcessBuild.cs" />
     <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimRigidBodyInspector.cs" />
     <Compile Include="Assets\OVRLipSync\Editor\OVRLipSyncTool.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SABoneColliderBuilderInspector.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SABoneColliderEditorCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SABoneColliderInspector.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAColliderBoxReducer.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAColliderBuilderEditorCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAColliderHullReducer.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderBuilderInspector.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderEditorCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderInspector.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -435,6 +444,8 @@
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_Normal.xml" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\Yo_Miku_Ver1.3.0_White.txt" />
     <None Include="Assets\MMD4Mecanim\Yo_Miku_Ver1.3.0\よ式初音ミク_使用前にお読みください.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
     <None Include="Assets\Sakura&apos;sRoom\ReadMe.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
