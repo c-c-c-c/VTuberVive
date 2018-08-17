@@ -309,6 +309,8 @@
     <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimMorphHelper.cs" />
     <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimRigidBody.cs" />
     <Compile Include="Assets\MMD4Mecanim\Scripts\MMD4MecanimSpeechHelper.cs" />
+    <Compile Include="Assets\MyScript\GameManager.cs" />
+    <Compile Include="Assets\MyScript\RotateRadarCamera.cs" />
     <Compile Include="Assets\OVRLipSync\Scenes\Scripts\EnableSwitch.cs" />
     <Compile Include="Assets\OVRLipSync\Scenes\Scripts\LipSyncDemo_SetCurrentTarget.cs" />
     <Compile Include="Assets\OVRLipSync\Scripts\Helpers\OVRLipSyncDebugConsole.cs" />
