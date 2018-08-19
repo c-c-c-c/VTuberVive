@@ -342,6 +342,27 @@ Prefab:
       propertyPath: m_Name
       value: unitychan
       objectReference: {fileID: 0}
+    - target: {fileID: 114248548028482622, guid: ebd74889c419c5b4098fa6a213fba6a2,
+        type: 2}
+      propertyPath: gain
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752817830204228, guid: ebd74889c419c5b4098fa6a213fba6a2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.093746535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752817830204228, guid: ebd74889c419c5b4098fa6a213fba6a2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.6978551
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752817830204228, guid: ebd74889c419c5b4098fa6a213fba6a2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.707469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752817830204228, guid: ebd74889c419c5b4098fa6a213fba6a2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.06080673
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ebd74889c419c5b4098fa6a213fba6a2, type: 2}
   m_IsPrefabParent: 0
